@@ -1,13 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.byterovermemory/byterovermemory-mcp",
-  "description": "ByteRover Team Memory is a hosted remote MCP for OpenAI Codex memory MCP.",
+  "title": "ByteRover Team Memory",
+  "description": "ByteRover Team Memory is a paid remote MCP endpoint for OpenAI Codex memory MCP. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.",
   "version": "1.0.0",
-  "website_url": "https://byterovermemory.clauxel.com/",
-  "repository": {
-    "url": "https://github.com/clauxel/byterover-team-memory-mcp",
-    "source": "github"
-  },
+  "websiteUrl": "https://byterovermemory.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/byterover-team-memory-mcp",
+  "serverCardUrl": "https://byterovermemory.clauxel.com/.well-known/mcp/server-card.json",
   "remotes": [
     {
       "type": "streamable-http",
@@ -15,17 +13,9 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token from the product website.",
-          "is_required": true,
-          "is_secret": true
+          "description": "Bearer token from the product website."
         }
       ]
     }
-  ],
-  "_meta": {
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "title": "ByteRover Team Memory MCP",
-      "server_card_url": "https://byterovermemory.clauxel.com/server-card.json"
-    }
-  }
+  ]
 }
