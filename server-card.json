@@ -1,0 +1,25 @@
+{
+  "error": "Error: server card fetch failed 522",
+  "fallback": {
+    "slug": "byterovermemory",
+    "name": "ByteRover Team Memory",
+    "website": "https://byterovermemory.clauxel.com/",
+    "endpoint": "https://byterovermemory.clauxel.com/mcp",
+    "serverCard": "https://byterovermemory.clauxel.com/.well-known/mcp/server-card.json",
+    "registryName": "com.clauxel.byterovermemory/byterovermemory-mcp",
+    "tools": [
+      "memory_recall",
+      "memory_write",
+      "memory_conflict_check",
+      "memory_receipt_export"
+    ],
+    "docsRepo": "byterover-team-memory-mcp",
+    "docs": "https://github.com/clauxel/byterover-team-memory-mcp",
+    "packageName": "@clauxel/byterovermemory-mcp",
+    "directoryName": "byterovermemory-mcp",
+    "category": "Knowledge & Memory",
+    "tagline": "Hosted MCP for OpenAI Codex memory MCP.",
+    "description": "ByteRover Team Memory is a paid remote MCP endpoint for OpenAI Codex memory MCP. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.",
+    "icon": "https://byterovermemory.clauxel.com/favicon.svg"
+  }
+}
