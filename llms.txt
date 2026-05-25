@@ -1,0 +1,15 @@
+# ByteRover Team Memory
+
+ByteRover Team Memory is a hosted remote MCP for OpenAI Codex memory MCP.
+
+Website: https://byterovermemory.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: OpenAI Codex memory MCP
+Type: MCP
+Default plan: team
+MCP endpoint: https://byterovermemory.clauxel.com/mcp
+Server card: https://byterovermemory.clauxel.com/server-card.json
+Registry name: com.clauxel.byterovermemory/byterovermemory-mcp
+Tools: memory_recall, memory_write, memory_conflict_check, memory_receipt_export
+
+Public boundary: docs-only repository; no production source code or secrets.
